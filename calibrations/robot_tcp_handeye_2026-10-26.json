@@ -1,0 +1,82 @@
+{
+  "label": "TOOL0 -> WAND hand-eye (wand is the robot tool), 2026-10-26, wand re-seated in the holder; uses the wand-only calibration 8700340 (wand_only_8700340_2026-10-20/)",
+  "method": "handeye_wrist_jog",
+  "note": "No divot. Wrist 1/2/3 jogged one at a time with the wand in view; tool0 -> wand from the hand-eye fit, tip and shaft from calibrations/8700340.json. The robot-pivot result robot-tcp printed for this recording (and the robot_tool.json / robot_tcp.json it wrote) assumes a divot and is invalid.",
+  "date": "2026-10-26T16:25:04",
+  "raw": "calibrations/raw/robot_tcp_20261026_162504.npz",
+  "base_frame": "base_link",
+  "ee_frame": "tool0",
+  "ur_type": "ur16e",
+  "wand_calibration": "8700340",
+  "robot_poses": 1176,
+  "handeye": {
+    "tool0_to_wand": [
+      [
+        -0.017563174174728635,
+        -0.9998423866273127,
+        -0.002595537768377121,
+        0.4363949559231442
+      ],
+      [
+        -0.9997313340208637,
+        0.017600377204341038,
+        -0.015082655572844886,
+        -9.162743011936186
+      ],
+      [
+        0.015125960788402478,
+        0.0023299411288378313,
+        -0.9998828814839085,
+        208.56147465287165
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "pairs": 600,
+    "angle_mismatch_deg_rms": 0.42219031217930036,
+    "camera_pose_spread_mm_rms": 8.084291856970449,
+    "camera_pose_spread_deg_rms": 0.33814569942419653,
+    "ndi_delay_s": 0.010000000000000092,
+    "samples": 1307
+  },
+  "wand_origin_tool0_mm": [
+    0.4363949559231442,
+    -9.162743011936186,
+    208.56147465287165
+  ],
+  "tip_tool0_mm": [
+    -0.40815239258846087,
+    9.840621341337453,
+    366.87142715592745
+  ],
+  "direction_tool0": [
+    -0.0030864418158499485,
+    0.01797859882353689,
+    0.9998336080874957
+  ],
+  "direction_angle_from_tool0_z_deg": 1.045,
+  "tip_check_camera_frame_mm": {
+    "rms": 0.8158078413424373,
+    "p95": 1.6112820959621785,
+    "max": 1.9536493908959498
+  },
+  "teleop_settings": {
+    "TOUCH_RCM_SHAFT_START": [
+      8e-05,
+      0.00699,
+      0.20827
+    ],
+    "TOUCH_RCM_SHAFT_DIRECTION": [
+      -0.00309,
+      0.01798,
+      0.99983
+    ],
+    "TOUCH_RCM_SHAFT_LENGTH": 0.1586
+  },
+  "shaft_length_source": "tip back to the first marker along the shaft (wand geometry), not measured",
+  "previous": "robot_tcp_handeye_2026-10-22.json (tip 2.5 mm away: wand seated differently)"
+}

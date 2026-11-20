@@ -1,0 +1,6 @@
+recordings/
+__pycache__/
+*.egg-info/
+
+# NDI tool definition files (vendor-supplied; see README "Tool definition files")
+ndi_tracking/roms/*.rom

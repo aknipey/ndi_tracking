@@ -1,0 +1,19 @@
+{
+  "tool": "robot_tool_handeye_2026-10-22",
+  "tip_offset_mm": [
+    -16.588835729626986,
+    1.5477334867659869,
+    -158.5758406210616
+  ],
+  "shaft_axis": [
+    0.002796116919630052,
+    -0.005731938917722946,
+    0.9999796630964125
+  ],
+  "pivot_rms_mm": 0.9287638496132051,
+  "axis_info": {
+    "source": "hand-eye 2026-10-22, wand is the tool; tip and axis are the wand-only calibration 8700340",
+    "robot_tcp": "calibrations/robot_tcp_handeye_2026-10-22.json"
+  },
+  "date": "2026-10-22T09:30:05"
+}

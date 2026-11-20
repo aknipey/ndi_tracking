@@ -1,0 +1,19 @@
+{
+  "tool": "robot_tool",
+  "tip_offset_mm": [
+    -74.75878460869862,
+    -4.407803035120701,
+    279.0452133222444
+  ],
+  "shaft_axis": [
+    0.0027961169196300505,
+    -0.0057319389177233225,
+    0.9999796630964128
+  ],
+  "pivot_rms_mm": 13.446927197864445,
+  "axis_info": {
+    "source": "robot_tcp hand-eye, ROM 8700340",
+    "direction": "from the wand's calibrated shaft axis (hand-eye)"
+  },
+  "date": "2026-11-19T15:34:37"
+}
